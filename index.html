@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/91a6d2fe0f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shojumaru&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        max-width: 1600px;
+        margin: auto;
+      }
+      #page1 {
+        position: relative;
+      }
+      #page1 > img:nth-child(1) {
+        width: 1512px;
+        height: 588px;
+        z-index: -1;
+      }
+      #page1 > div {
+        display: flex;
+      }
+      #page1 > div > img {
+        width: 106px;
+        height: 117px;
+        position: absolute;
+        top: 21px;
+        left: 108px;
+        z-index: 1;
+      }
+      #page1 > div > div {
+        width: 122px;
+        height: 32px;
+        position: absolute;
+        top: 50px;
+        left: 210px;
+        font-family: ZCOOL KuaiLe;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 32px;
+        text-align: center;
+        color: #ffffff;
+      }
+      #page1 > nav {
+        width: 679px;
+        height: Hug (52px) px;
+        position: absolute;
+        top: 30px;
+        left: 503px;
+        padding: 16px 24px 16px 24px;
+        gap: 24px;
+        border-radius: 20px;
+        color: white;
+        background-color: black;
+        display: flex;
+      }
+      #page1 > nav > span {
+        font-family: ZCOOL KuaiLe;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: center;
+        margin-top: 10px;
+        margin-inline: 6px;
+      }
+      #page1 > button {
+        width: 127px;
+        position: absolute;
+        height: 45px;
+        top: 40px;
+        left: 1300px;
+        padding: 10px 16px 10px 16px;
+        gap: 6.18px;
+        border-radius: 15.44px;
+        background: linear-gradient(93.73deg, #ed0137 20.19%, #f05733 88.3%);
+        color: white;
+      }
+      #page1 > p {
+        width: 1262px;
+        height: 108px;
+        position: absolute;
+        top: 270px;
+        left: 108px;
+        font-family: Shojumaru;
+        font-size: 45px;
+        font-weight: 400;
+        line-height: 53.55px;
+        text-align: center;
+        color: #fbf6f6;
+      }
+      #page2 {
+        width: 1512px;
+        height: 716px;
+        margin-top: -4.5px;
+        top: 1261px;
+        left: -601px;
+        background-color: black;
+        z-index: -1;
+      }
+      #page2 > img {
+        width: 795px;
+        height: 795px;
+        position: absolute;
+        top: 550px;
+        left: 1050px;
+      }
+      #page2 > h2 {
+        width: 389px;
+        height: 52px;
+        padding-top: 100px;
+        padding-left: 166px;
+        color: #ed0137;
+        font-family: Shojumaru;
+        font-size: 44px;
+        font-weight: 400;
+        line-height: 52.36px;
+        text-align: left;
+      }
+      #page2 > p {
+        color: white;
+        width: 587px;
+        height: 207px;
+        margin-top: 60px;
+        margin-left: 166px;
+        font-family: ZCOOL KuaiLe;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28.56px;
+        text-align: left;
+      }
+      #page2 > div {
+        width: 185.94px;
+        height: Hug (54.06px) px;
+        margin-top: 20px;
+        margin-left: 166px;
+        padding: 17.03px 21.29px 17.03px 21.29px;
+        gap: 11.35px;
+        border-radius: 21.92px;
+        background: linear-gradient(93.73deg, #d51b46 10.19%, #ee6910 98.19%);
+      }
+      #page2 > div > button {
+        width: 109px;
+        height: 20px;
+        font-family: ZCOOL KuaiLe;
+        font-size: 20.03px;
+        font-weight: 400;
+        line-height: 20.03px;
+        text-align: left;
+        background: linear-gradient(93.73deg, #d51b46 10.19%, #ee6910 98.19%);
+        color: #ffffff;
+        border: none;
+      }
+      #page2 > div > span {
+        color: white;
+        width: 16px;
+        height: 16px;
+        padding-left: 10px;
+      }
+      #page3 > img {
+        width: 1512px;
+        height: 716px;
+        top: 1261px;
+        left: -601px;
+        z-index: -1;
+        background-color: black;
+      }
+      #page3 > h1 {
+        width: 282px;
+        height: 52px;
+        position: absolute;
+        top: 1390px;
+        left: 950px;
+        font-family: Shojumaru;
+        font-size: 44px;
+        font-weight: 400;
+        line-height: 52.36px;
+        text-align: left;
+        color: #ed0137;
+      }
+      #page3 > div {
+        width: 1159.1px;
+        height: 349px;
+        position: absolute;
+        top: 1528px;
+        left: 561px;
+        padding: 0px;
+        animation-delay: 800ms;
+        animation: instant;
+        animation-duration: 0ms;
+        display: flex;
+        gap: 35px;
+        z-index: 1;
+      }
+      #page3 > div > img {
+        width: 237.06px;
+        height: Hug (349px) px;
+        border-radius: 13.17px;
+      }
+      #page4 {
+        width: 1512px;
+        height: 428px;
+        margin-top: -3.7px;
+        top: 1977px;
+        left: -601px;
+        z-index: -2;
+        background: linear-gradient(180deg, #030405 0%, #120101 100%);
+      }
+      #page4 > div > img {
+        width: 200px;
+        height: 163px;
+        position: relative;
+        top: 64px;
+        left: 658px;
+      }
+      #page4 > div > h2 {
+        width: 124px;
+        height: 26px;
+        position: relative;
+        top: 80px;
+        left: 699px;
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 25.64px;
+        letter-spacing: 1.7090909481048584px;
+        text-align: left;
+        background: linear-gradient(92.23deg, #ff002a 5.2%, #720005 90.93%);
+        color: rgb(249, 191, 191);
+      }
+      #page4 > div:nth-child(2) {
+        width: 618px;
+        height: 20px;
+        position: absolute;
+        top: 2325px;
+        left: 800px;
+        display: flex;
+        gap: 24px;
+      }
+      #page4 > div:nth-child(2) > span {
+        width: 80px;
+        height: 20px;
+        left: 438px;
+        font-family: Poppins;
+        font-size: 12.82px;
+        font-weight: 600;
+        line-height: 20.23px;
+        text-align: left;
+        color: #ffffff;
+      }
+      #page4 > div:nth-child(3) {
+        display: flex;
+        gap: 50px;
+      }
+      #page4 > div:nth-child(3) > span {
+        color: red;
+        width: 111px;
+        height: 27px;
+        font-size: 30px;
+        position: absolute;
+        top: 2320px;
+        left: 850px;
+        margin: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="page1">
+        <img src="./Rectangle 18.png" alt="" />
+        <div>
+          <img src="./Logo Savior red copy 1.png" alt="" />
+          <div>Saviour</div>
+        </div>
+        <nav>
+          <span>Home</span>
+          <span>IDO</span>
+          <span>Takenamics</span>
+          <span>Roadmap</span>
+          <span>Coming Soon</span>
+          <span
+            ><span class="material-symbols-outlined">
+              keyboard_arrow_down
+            </span></span
+          >
+        </nav>
+        <button>Connect Wallet</button>
+        <p>
+          Where Blockchain Heroes Thrive, Rescuing Dreams, Elevating Fortunes.
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <div id="page2">
+        <img
+          src="./Brick_Matrix_Generate_a_logo_concept_that_visually_represents_t_9df3d56e-2aaa-42b8-add9-01ba1b656499 2.png"
+          alt=""
+        />
+        <h2>Introduction</h2>
+        <p>
+          We've all been in the mud once, and now we've decided to fight it out.
+          Pay tribute to those pioneers of WEB3 and the warriors who dedicated
+          their love to the blockchain. Save the lucky ones alive, join us to
+          save the future! Our mission is to empower everyone to share wealth
+          and succeed. read more...
+        </p>
+        <div>
+          <button>Documents</button>
+          <span class="material-symbols-outlined"> keyboard_arrow_down </span>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div id="page3">
+        <img src="./Rectangle 21.png" alt="" />
+        <h1>Road Map</h1>
+        <div>
+          <img src="./Link.png" alt="" />
+          <img src="./Link.png" alt="" />
+          <img src="./Link.png" alt="" />
+          <img src="./Link.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div id="page4">
+        <div>
+          <img src="./Frame 1790.png" alt="" />
+          <h2>SITEMAP</h2>
+        </div>
+        <div>
+          <span>Home</span>
+          <span>IDO</span>
+          <span>Takenomics</span>
+          <span>Roadmap</span>
+          <span>Whitepaper</span>
+          <span>pledge</span>
+          <span>NFT</span>
+          <span>Games</span>
+        </div>
+        <div>
+          <span><i class="fa-brands fa-twitter"></i></span>
+          <span><i class="fa-brands fa-telegram"></i></span>
+          <span><i class="fa-regular fa-envelope"></i></span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
